@@ -1,0 +1,18 @@
+Constructor () 
+-> dealer = msg.sender; 
+-> shuffle() 
+->players are ordered as they sign up (push things to the list)
+->openBets()
+-> dealer decides when to close sign ups, or we hit 7 max players. Min 2 players
+
+Once bets are closed, we begin the game. 
+Start() 
+-> give 1 card to each player in order, TWICE (2 rounds). figure out how to randomize this. Choose a card WITHOUT replacement. 
+-> Players can hit or stay (1 round). Once you stay, you cannot hit anymore. 
+->5 minutes time limit to say your stay or hit. If you don't do anything, automatically staying
+-> Dealer has to keep hitting until he has 17 or more.
+-> If dealer wins or busts, the game automatically ends. Else, each player continues to play against dealer until win or bust.
+
+
+End()
+->dealer pays or gets money
